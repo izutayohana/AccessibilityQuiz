@@ -65,9 +65,38 @@
             </fieldset>
         </div>
         </section>
-        <section role="region" aria-labelledby="css-questions"><h2 id="css-questions">CSS Questions</h2></section>
+        <section role="region" aria-labelledby="css-questions">
+            <h2 id="css-questions">CSS Questions</h2>
+            <div class="formrow">
+                <div class="question-block">
+                    <label for="frontend">Are you a frontend developer?</label>
+                </div>
+                <div class="answer">
+                    <select required  name="frontend" id="frontend">
+                        <option value="">Select an option</option>
+                        <option value="yes">Yes</option>
+                        <option value="no">No</option>
+                    </select>
+                </div>
+                <div class="question-block">
+                    <label for="questions">Do you have any questions:</label>
+                </div>
+                <div class="answer">
+                    <textarea rows="30" cols="24" placeholder="I would like to know.." id="questions" name="questions"></textarea>
+                </div>
+            </div>
+        </section>
+        <button type="submit">Send</button>
         </form>
     </main>
+    <footer>
+        <address>
+            Yohana Izuta<br>
+            Yokohama shi<br>
+            Kanagawa ken<br>
+            Japan
+        </address>
+    </footer>
 </body>
 
 </html>
