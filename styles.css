@@ -17,6 +17,10 @@ body {
     height: 50px;
     background-color: #1b1b32;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
   }
 
   h1 {
@@ -52,4 +56,23 @@ h2 {
 
 p::before {
   content: "Question #";
+}
+
+nav > ul > li {
+  color: #dfdfe2;
+  margin: 0 0.2rem;
+  padding: 0.2rem;
+  display: block;
+}
+
+li > a {
+  color: inherit;
+  text-decoration: none; 
+}
+
+nav > ul > li:hover { 
+  text-decoration: none; 
+  color: #1b1b32;
+  background-color: #dfdfe2;
+  cursor: pointer;
 }
